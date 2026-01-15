@@ -928,8 +928,8 @@
         /* OPTIMIZATION #1: Smaller playbox for mobile */
         @media (max-width: 768px) {
             #rack-space {
-                max-height: 180px !important;
-                min-height: 180px;
+                max-height: 240px !important;
+                min-height: 240px;
                 padding: 10px;
             }
 
@@ -2471,8 +2471,8 @@
             card.style.top = Math.max(0, y) + 'px';
 
             const isMobile = window.innerWidth <= 768;
-            const canvasWidth = isMobile ? 180 : 200;
-            const canvasHeight = isMobile ? 55 : 60;
+            const canvasWidth = isMobile ? 110 : 200;
+            const canvasHeight = isMobile ? 35 : 60;
 
             card.innerHTML = `
                 <div class="mod-header">
